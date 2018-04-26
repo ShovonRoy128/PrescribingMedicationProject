@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void current medication()
+void current_medication()
 {
 
 }
 
-void new medication()
+void new_medication()
 {
 
 }
