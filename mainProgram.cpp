@@ -43,4 +43,10 @@ cout<<"Enter formulary: ";
 int main()
 {
     ///UI will be here
+     patient p1;
+    p1.illpatient();
+    p1.current_medication();
+    p1.new_medication();
+    p1.formularyp1();
+    return 0;
 }
