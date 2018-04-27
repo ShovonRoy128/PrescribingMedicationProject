@@ -38,6 +38,13 @@ void formularyp1()
 cout<<"Enter formulary: ";
         cin>>formulary;
 }
+void display()
+{
+    cout<<"Patient's name: "<<name;
+    cout<<"Age: "<<age;
+    cout<<"Current Medication: "<<cmedication;
+    cout<<"New Medication: "<<nmedication;
+}
 };
 
 int main()
@@ -48,5 +55,6 @@ int main()
     p1.current_medication();
     p1.new_medication();
     p1.formularyp1();
+    p1.display();
     return 0;
 }
