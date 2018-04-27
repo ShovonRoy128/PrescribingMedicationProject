@@ -99,8 +99,36 @@ Tier 7 Preventive drug available at no cost to the member.
     //put down in the database
 }
 
+void userInterface()
+{
+    cout<<"                *****______________________________________*****\n";
+    cout<<"                *****--------------------------------------*****\n";
+    cout<<"                **         WELCOME TO MY OUR PROJECT          **\n";
+    cout<<"                **       PRESCRIBING MEDICATION SYSTEM        **\n";
+    cout<<"                *****______________________________________*****\n";
+    cout<<"                *****--------------------------------------*****\n\n";
+    int p;
+    do
+    {
+        cout<<"\n\n                 ----------------------------------\n"
+            <<"                 ----Please Enter Your Choice------\n"
+            <<"\n                 1.Current Medication\n"
+            <<"                 2.New Medication\n"
+            <<"                 3.Formulary\n"
+            <<"                 4.exit\n"
+            <<"                 ----------------------------------\n"
+            <<"                 ----------------------------------\n";
+        cout<<"     PRESS ==>> ";
+        cin>>p;
+        cout<<endl;
+
+    }
+    while(p!=4);
+}
+
 int main()
 {
     ///UI will be here
-    current_medication();
+    //current_medication();
+    userInterface();
 }
