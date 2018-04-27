@@ -61,7 +61,42 @@ void new_medication()
 
 void formulary()
 {
+/*
+    List of Abbreviations
+ACA: Affordable Care Act.
 
+LA: Limited Availability. This prescription may be available only at certain pharmacies. For more information,
+please call Customer Service.
+
+PA: Prior Authorization. The Plan requires you or your physician to get prior authorization for certain drugs. This
+means that you will need to get approval before you fill your prescriptions. If you don’t get approval, we may not
+cover the drug.
+
+QL: Quantity Limit. For certain drugs, the Plan limits the amount of the drug that we will cover.
+
+ST: Step Therapy. In some cases, the Plan requires you to first try certain drugs to treat your medical condition
+before we will cover another drug for that condition. For example, if Drug A and Drug B both treat your medical
+condition, we may not cover Drug B unless you try Drug A first. If Drug A does not work for you, we will then
+cover Drug B.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Drug Tier: identifies the member’s cost sharing requirement
+Tier 1A,B Preferred generic drug.
+Tier 2 Generic drug.
+Tier 3 Preferred brand drug.
+Tier 4 Brand drug.
+Tier 5 Oral chemotherapy drug.
+Tier 6 Specialty drug.
+Tier 7 Preventive drug available at no cost to the member.
+*/
+    string drugName,drugTier,requirementOrLimit;
+    cout<<"Enter drug name : ";
+    cin>>drugName;
+    cout<<"Enter drug tier : ";
+    cin>>drugTier;
+    cout<<"Enter requirement or limit : ";
+    cin>>requirementOrLimit;
+    //put down in the database
 }
 
 int main()
