@@ -33,7 +33,7 @@ cout<<"Enter type of disease: ";
         cin>>nmedication;
 }
 
-void formulary()
+void formularyp1()
 {
 cout<<"Enter formulary: ";
         cin>>formulary;
